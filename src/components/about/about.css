@@ -43,7 +43,7 @@
   }
 
   .about__me{
-    width: 60%;
+    width: 50%;
     margin: 2rem auto 4rem;
   }
 
@@ -64,6 +64,10 @@
 
   .about__content{
     text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
   }
  
 }
