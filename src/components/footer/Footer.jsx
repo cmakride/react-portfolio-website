@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FaGithubSquare,FaLinkedin } from 'react-icons/fa'
+import { FaGithub,FaLinkedinIn } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -15,9 +15,11 @@ const Footer = () => {
       </ul>
 
     <div className="footer__socials">
-    <a href="https://www.linkedin.com/in/christopher-makrides" rel='noreferrer' target='_blank'><FaLinkedin/></a>
-      <a href="https://github.com/cmakride" rel='noreferrer' target='_blank'><FaGithubSquare/></a>
+    <a href="https://www.linkedin.com/in/christopher-makrides" rel='noreferrer' target='_blank'><FaLinkedinIn/></a>
+      <a href="https://github.com/cmakride" rel='noreferrer' target='_blank'><FaGithub/></a>
     </div>
+
+  
     </footer>
   )
 }
