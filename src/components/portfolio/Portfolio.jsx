@@ -5,55 +5,61 @@ import IMG2 from '../../assets/port_classics.png'
 import IMG3 from '../../assets/port_cofoundations.png'
 import IMG4 from '../../assets/port_dominoes.png'
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Social App To Upload/Review Cocktails',
+    github: "https://github.com/cmakride/shakn_app_front_end",
+    demo: "https://shakn.netlify.app/"
+  },
+
+  {
+    id: 2,
+    image: IMG2,
+    title: 'App To Create,View Classics',
+    github: "https://github.com/cmakride/classics-react-app",
+    demo: "https://theclassics.netlify.app/classics"
+  },
+
+  {
+    id: 3,
+    image: IMG3,
+    title: 'App To Search and View Cocktail Recipes',
+    github: "https://github.com/cmakride/cocktail_foundations",
+    demo: "https://cocktail-foundations.herokuapp.com/cocktails"
+  },
+
+  {
+    id: 4,
+    image: IMG4,
+    title: '4 Player Dominoes Web App',
+    github: "https://github.com/cmakride/Dominoes-Game",
+    demo: "https://cmakride.github.io/Dominoes-Game/"
+  }
+
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
       <div className="container portfolio__container">
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>Shakn</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/cmakride/shakn_app_front_end" className='btn' rel='noreferrer' target='_blank'>Github</a>
-            <a href="https://shakn.netlify.app/" className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+        {data.map((project,idx) => (
+          <article key={idx} className='portfolio_item'>
+            <div className="portfolio_item-image">
+              <img src={project.image} alt="" />
+            </div>
+            <h3>{project.title}</h3>
+            <div className="portfolio_item-cta">
+              <a href={project.github} className='btn' rel='noreferrer' target='_blank'>Github</a>
+              <a href={project.demo} className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
+            </div>
+          </article>
+        ))}
 
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Classics</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/cmakride/classics-react-app" className='btn' rel='noreferrer' target='_blank'>Github</a>
-            <a href="https://theclassics.netlify.app/classics" className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
-          </div>
-        </article>
 
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Cocktail Foundations</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/cmakride/cocktail_foundations" className='btn' rel='noreferrer' target='_blank'>Github</a>
-            <a href="https://cocktail-foundations.herokuapp.com/cocktails" className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Dominoes</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/cmakride/Dominoes-Game" className='btn' rel='noreferrer' target='_blank'>Github</a>
-            <a href="https://cmakride.github.io/Dominoes-Game/" className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>
-          </div>
-        </article>
       </div>
 
     </section>

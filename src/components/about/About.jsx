@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="about__content">
           
-          <p>Passionate Software Developer always seeking to improve and learn. My background comes from an education in Physics and Mathematics. With professional experience in the fields of Oil/Gas, Hospitality, and Electrical. While not coding you can find me surfing, working out at a local gym, or traveling to either Greece or Brazil to visit family. </p>
+          <p>Passionate Software Developer always seeking to improve and learn. My background comes from an education in Physics and Mathematics. With professional experience in the fields of Oil/Gas, Hospitality, and Electrical. While not coding you can find me surfing, working out at a local gym, or traveling. My favorite destinations currently are Greece and Brazil. </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
