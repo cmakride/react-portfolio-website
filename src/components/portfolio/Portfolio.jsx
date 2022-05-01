@@ -10,8 +10,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Social App To Upload/Review Cocktails',
-    github: "https://github.com/cmakride/shakn_app_front_end",
-    demo: "https://shakn.netlify.app/"
+    github: "https://github.com/cmakride/shakn",
+    demo: "https://shakn-a.netlify.app/"
   },
 
   {
