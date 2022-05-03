@@ -10,6 +10,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Social App To Upload/Review Cocktails',
+    description: 'React & Express',
     github: "https://github.com/cmakride/shakn",
     demo: "https://shakn-a.netlify.app/"
   },
@@ -18,6 +19,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'App To Create,View Classics',
+    description: 'React & Flask',
     github: "https://github.com/cmakride/classics-react-app",
     demo: "https://theclassics.netlify.app/classics"
   },
@@ -26,6 +28,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'App To Search and View Cocktail Recipes',
+    description: 'Javascript & MongoDB',
     github: "https://github.com/cmakride/cocktail_foundations",
     demo: "https://cocktail-foundations.herokuapp.com/cocktails"
   },
@@ -34,6 +37,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: '4 Player Dominoes Web App',
+    description: 'Javascript & CSS',
     github: "https://github.com/cmakride/Dominoes-Game",
     demo: "https://cmakride.github.io/Dominoes-Game/"
   }
@@ -52,6 +56,7 @@ const Portfolio = () => {
               <img src={project.image} alt="" />
             </div>
             <h3>{project.title}</h3>
+            <h5>{project.description}</h5>
             <div className="portfolio_item-cta">
               <a href={project.github} className='btn' rel='noreferrer' target='_blank'>Github</a>
               <a href={project.demo} className='btn btn-primary' rel='noreferrer' target='_blank'>Live Demo</a>

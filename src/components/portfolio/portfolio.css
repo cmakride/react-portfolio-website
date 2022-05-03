@@ -26,6 +26,10 @@
   margin: 1.2rem 0 2rem;
 }
 
+.portfolio_item h5 {
+  margin: 1.2rem 0 2rem;
+}
+
 .portfolio_item-cta {
   display: flex;
   gap: 1rem;
