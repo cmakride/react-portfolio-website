@@ -10,7 +10,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Social App To Upload/Review Cocktails',
-    description: 'React & Express',
+    description: 'React | Express | MongoDB',
     github: "https://github.com/cmakride/shakn",
     demo: "https://shakn-a.netlify.app/"
   },
@@ -19,7 +19,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'App To Create,View Classics',
-    description: 'React & Flask',
+    description: 'React | Flask | PostgreSQL',
     github: "https://github.com/cmakride/classics-react-app",
     demo: "https://theclassics.netlify.app/classics"
   },
@@ -28,7 +28,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'App To Search and View Cocktail Recipes',
-    description: 'Javascript & MongoDB',
+    description: 'Javascript | MongoDB',
     github: "https://github.com/cmakride/cocktail_foundations",
     demo: "https://cocktail-foundations.herokuapp.com/cocktails"
   },
@@ -37,7 +37,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: '4 Player Dominoes Web App',
-    description: 'Javascript & CSS',
+    description: 'Javascript | CSS',
     github: "https://github.com/cmakride/Dominoes-Game",
     demo: "https://cmakride.github.io/Dominoes-Game/"
   }
