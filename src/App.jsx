@@ -6,10 +6,12 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import ColorBar from './components/colorbar/ColorBar'
 
 const App = () => {
   return (
     <>
+    <ColorBar/>
     <Header/>
     <Nav/>
     <Portfolio/>
