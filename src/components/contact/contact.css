@@ -20,7 +20,7 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
   /* margin: 0 auto 1rem; */
-  border: 5px solid rgba(77, 181, 255, 1);
+  border: 5px solid rgb(17, 39, 54);
 }
 
 .contact-text{
