@@ -29,9 +29,18 @@
   display: grid;
 }
 
+.about__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about__content p {
   margin: 2rem 0 2.6rem;
+  font-size: 1.5rem;
   color: var(--color-light);
+  
 }
 
 /* Media Queries (Medium Devices) */

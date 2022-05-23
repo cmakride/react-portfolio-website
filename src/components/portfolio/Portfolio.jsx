@@ -1,16 +1,16 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/port_shakn.png'
-import IMG2 from '../../assets/port_classics.png'
-import IMG3 from '../../assets/port_cofoundations.png'
-import IMG4 from '../../assets/port_dominoes.png'
+import IMG1 from '../../assets/portfolio/shakn.png'
+import IMG2 from '../../assets/portfolio/spirit_website.png'
+import IMG3 from '../../assets/portfolio/cocktail_recipe_finder.png'
+import IMG4 from '../../assets/portfolio/dominoes.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Social App To Upload/Review Cocktails',
-    description: 'React | Express | MongoDB',
+    description: 'React | Express | MongoDB | Tailwind',
     github: "https://github.com/cmakride/shakn",
     demo: "https://shakn-a.netlify.app/"
   },
@@ -18,10 +18,10 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'App To Create,View Classics',
-    description: 'React | Flask | PostgreSQL',
-    github: "https://github.com/cmakride/classics-react-app",
-    demo: "https://theclassics.netlify.app/classics"
+    title: 'Holistic Business Website',
+    description: 'React | Tailwind',
+    github: "https://github.com/cmakride/sp-website",
+    demo: "https://lustrous-pegasus-72972c.netlify.app/"
   },
 
   {
