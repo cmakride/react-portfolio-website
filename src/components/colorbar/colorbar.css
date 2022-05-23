@@ -14,7 +14,7 @@
   backdrop-filter: blur(15px);
 }
 
-nav a {
+.colorbar i {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -24,12 +24,12 @@ nav a {
 }
 
 
-nav a:hover{
+.colorbar i:hover{
   background: rgba(0,0,0,0.4);
 }
 
 /* will be for classname with active representing current page user is on */
-nav a.active {
+.colorbar i.active {
   background: var(--color-light);
   color: black;
 }
