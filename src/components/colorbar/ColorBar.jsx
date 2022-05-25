@@ -10,9 +10,9 @@ const ColorBar = ({switchTheme}) => {
       
     <div className='colorbar'>
       <i onClick={() => switchTheme('dark')}><BsCircleFill/></i>
-      <i onClick={() => switchTheme('red')}><BsCircleFill/></i>
-      <i onClick={() => switchTheme('blue')}><BsCircleFill/></i>
-      <i onClick={() => switchTheme('green')}><BsCircleFill/></i>
+      <i id="red" onClick={() => switchTheme('red')}><BsCircleFill/></i>
+      <i id="blue" onClick={() => switchTheme('blue')}><BsCircleFill/></i>
+      <i id="green" onClick={() => switchTheme('green')}><BsCircleFill/></i>
       
     </div>
     
