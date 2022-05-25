@@ -21,8 +21,8 @@ const App = () => {
 
   return (
     <div data-theme={theme}>
-    <Header/>
     <ColorBar switchTheme={switchTheme}/>
+    <Header/>
     <Nav/>
     <Portfolio/>
     <Experience/>
