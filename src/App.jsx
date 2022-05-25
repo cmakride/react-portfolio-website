@@ -9,26 +9,33 @@ import Footer from './components/footer/Footer'
 import ColorBar from './components/colorbar/ColorBar'
 
 
-
 const App = () => {
-  const [theme,setTheme] = useState('dark')
-  
-  
+  const [theme, setTheme] = useState('dark')
+
+
   function switchTheme(color) {
     setTheme(color)
   }
 
+  const imgUrl = `./assets/${theme}.png`
+  console.log(imgUrl)
+  const divStyle = {
+    backgroundImage: `url(/${theme}.png)`
+  }
+
+  console.log(divStyle.backgroundImage)
+
 
   return (
-    <div data-theme={theme}>
-    <ColorBar switchTheme={switchTheme}/>
-    <Header/>
-    <Nav/>
-    <Portfolio/>
-    <Experience/>
-    <About/>
-    <Contact/>
-    <Footer/>
+    <div style={divStyle} data-theme={theme}>
+      <ColorBar switchTheme={switchTheme} />
+      <Header />
+      <Nav />
+      <Portfolio />
+      <Experience />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   )
 }
