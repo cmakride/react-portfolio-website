@@ -27,7 +27,42 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+}
 
+[data-theme='dark']{
+  --color-bg: #1f1f38;
+  --color-bg-variant: #313140;
+  --color-primary: #eff8ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme='red']{
+  --color-bg: #33161b;
+  --color-bg-variant: #3d0411b6;
+  --color-primary: #de304a;
+  --color-primary-variant: rgba(255, 77, 107, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme='blue']{
+  --color-bg: #040d40;
+  --color-bg-variant: #101953;
+  --color-primary: #4c60fa;
+  --color-primary-variant: rgba(58, 170, 250, 0.668);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme='green']{
+  --color-bg: #092015;
+  --color-bg-variant: #053d2a;
+  --color-primary: #7ee28fdd;
+  --color-primary-variant: rgba(255, 77, 107, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
 }
 
 html{
