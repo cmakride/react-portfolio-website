@@ -21,7 +21,7 @@ const data = [
     title: 'Holistic Business Website',
     description: 'React | Tailwind',
     github: "https://github.com/cmakride/sp-website",
-    demo: "https://lustrous-pegasus-72972c.netlify.app/"
+    demo: "https://www.brunamakrides.com/"
   },
 
   {
