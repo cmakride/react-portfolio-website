@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Holistic Business Website',
+    title: 'Mobile Responsive Holistic Business Website For Client',
     description: 'React | Tailwind',
     github: "https://github.com/cmakride/sp-website",
     demo: "https://www.brunamakrides.com/"
@@ -27,17 +27,17 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'App To Search and View Cocktail Recipes',
-    description: 'Javascript | MongoDB',
-    github: "https://github.com/cmakride/cocktail_foundations",
-    demo: "https://cocktail-foundations.herokuapp.com/cocktails"
+    title: 'Uses Third Party API To Search And View Cocktail Recipes',
+    description: 'Javascript | React | Tailwind',
+    github: "https://github.com/cmakride/cocktails-third-party-api",
+    demo: "https://cocktail-recipe-finder-search.netlify.app/"
   },
 
   {
     id: 4,
     image: IMG4,
     title: '4 Player Dominoes Web App',
-    description: 'Javascript | CSS',
+    description: 'Javascript | CSS | HTML',
     github: "https://github.com/cmakride/Dominoes-Game",
     demo: "https://cmakride.github.io/Dominoes-Game/"
   }
