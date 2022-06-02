@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio/shakn.png'
 import IMG2 from '../../assets/portfolio/spirit_website.png'
 import IMG3 from '../../assets/portfolio/cocktail_recipe_finder.png'
-import IMG4 from '../../assets/portfolio/dominoes.png'
+import IMG4 from '../../assets/portfolio/spaceInvaders.png'
 
 const data = [
   {
@@ -36,10 +36,10 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: '4 Player Dominoes Web App',
-    description: 'Javascript | CSS | HTML',
-    github: "https://github.com/cmakride/Dominoes-Game",
-    demo: "https://cmakride.github.io/Dominoes-Game/"
+    title: '2D geometric shooter',
+    description: 'Javascript | HTML',
+    github: "https://github.com/cmakride/space-invaders",
+    demo: "https://space-invaders-cm.netlify.app/"
   }
 
 ]
