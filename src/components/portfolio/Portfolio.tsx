@@ -1,24 +1,41 @@
 import React from "react";
 import "./portfolio.css";
 
-const data = [
+interface PortfolioPiece {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  github?: string;
+  demo: string;
+}
+
+const data: PortfolioPiece[] = [
   {
     id: 1,
-    image: "/cocktail_recipe_finder.png",
+    image: "/ux-designer-portfolio.png",
     title: "Designer Portfolio Responsive Website",
     description: "Javascript | React | Tailwind",
-    github: "https://github.com/cmakride/cocktails-third-party-api",
     demo: "https://brunamakridesdesign.com/",
   },
   {
     id: 2,
-    image: "/spaceInvaders.png",
+    image: "/cocktail-recipe-finder.png",
     title: "Uses Third Party API To Search And View Cocktail Recipes",
     description: "Javascript | React | Tailwind",
     github: "https://github.com/cmakride/cocktails-third-party-api",
     demo: "https://cocktail-recipe-finder-search.netlify.app/",
   },
+  {
+    id: 3,
+    image: "/space-invaders.png",
+    title: "Uses Third Party API To Search And View Cocktail Recipes",
+    description: "Javascript | React | Tailwind",
+    github: "https://github.com/cmakride/space-invaders",
+    demo: "https://space-invaders-cm.netlify.app/",
+  },
 ];
+
 export default function Portfolio() {
   return (
     <section id="portfolio">
@@ -33,14 +50,16 @@ export default function Portfolio() {
             <h3>{project.title}</h3>
             <h5>{project.description}</h5>
             <div className="portfolio_item-cta">
-              <a
-                href={project.github}
-                className="btn"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Github
-              </a>
+              {project?.github && (
+                <a
+                  href={project.github}
+                  className="btn"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              )}
               <a
                 href={project.demo}
                 className="btn btn-primary"
