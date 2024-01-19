@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 
-interface PortfolioPiece {
+interface Project {
   id: number;
   image: string;
   title: string;
@@ -10,7 +10,7 @@ interface PortfolioPiece {
   demo: string;
 }
 
-const data: PortfolioPiece[] = [
+const projects: Project[] = [
   {
     id: 1,
     image: "/ux-designer-portfolio.png",
@@ -42,7 +42,7 @@ export default function Portfolio() {
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
       <div className="container portfolio__container">
-        {data.map((project, idx) => (
+        {projects.map((project, idx) => (
           <article key={idx} className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={project.image} alt="" />
