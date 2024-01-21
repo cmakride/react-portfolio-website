@@ -10,6 +10,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  min-width: 15rem;
 }
 
 .portfolio_item:hover {
@@ -24,14 +25,17 @@
 
 .portfolio_item h3 {
   margin: 1.2rem 0 2rem;
+  text-align: center;
 }
 
 .portfolio_item h5 {
   margin: 1.2rem 0 2rem;
+  text-align: center;
 }
 
 .portfolio_item-cta {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -42,15 +46,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
-
-
 }
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
-  .portfolio__container{
+  .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-
 }

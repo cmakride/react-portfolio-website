@@ -47,8 +47,8 @@ export default function Portfolio() {
             <div className="portfolio_item-image">
               <img src={project.image} alt="" />
             </div>
-            <h3>{project.title}</h3>
-            <h5>{project.description}</h5>
+            <h3 className="">{project.title}</h3>
+            <h5 className="">{project.description}</h5>
             <div className="portfolio_item-cta">
               {project?.github && (
                 <a
