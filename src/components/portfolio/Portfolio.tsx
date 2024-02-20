@@ -60,6 +60,7 @@ export default function Portfolio() {
                   Github
                 </a>
               )}
+              {!Boolean(project?.github) && <div className="btn">Github Upon Request</div>}
               <a
                 href={project.demo}
                 className="btn btn-primary"
